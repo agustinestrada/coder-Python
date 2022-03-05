@@ -18,8 +18,10 @@ grupo_B = []
 
 if (fan_de_minuscula == 'marvel' and inicial < 'm') or (fan_de_minuscula == 'capcom' and inicial > 'n'):
     grupo_A.append(nombre_nuevo_miembro)
+    print('Tu grupo es A')
 else:
     grupo_B.append(nombre_nuevo_miembro)
+    print('Tu grupo es B')
 
 print('grupo A',grupo_A)
 print('grupo B',grupo_B)
