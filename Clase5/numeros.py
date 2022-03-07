@@ -5,9 +5,12 @@ acumulador = []
 numero = int(input('Por favor introduzca un numero\n'))
 
 while numero != 0:
-    
     if numero:
        acumulador.append(numero)
+
+    if len(acumulador) > 4:
+
+        print('Si queres terminar con este calvario pone 0')
         
     numero = int(input('Por favor introduzca un numero\n'))
 

@@ -1,5 +1,4 @@
-'''Un curso se ha dividido en dos grupos: A y B de acuerdo al nombre y a una
-preferencia (Marvel o Capcom). 
+'''Un curso se ha dividido en dos grupos: A y B de acuerdo al nombre y a una preferencia (Marvel o Capcom). 
 El grupo A está formado por fans de Marvel con un nombre anterior a la M y los fans de Capcom con un nombre posterior a la N
 El grupo B por el resto. 
 Escribir un programa que pregunte al usuario su nombre y preferencia, y muestre por pantalla el grupo que le corresponde.'''
