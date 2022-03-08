@@ -1,5 +1,5 @@
 #Punto 1
-
+'''
 primer_numero = float(input('Por favor ingrese un numero\n'))
 segundo_numero = float(input('Por favor ingrese un segundo numero\n'))
 
@@ -17,3 +17,28 @@ else:
     print('La opcion ingresada no es valida')
 
 #Punto 2
+
+numero_elegido = int(input('Por favor ingrese un numero impar\n'))
+
+while (numero_elegido%2) == 0:
+   numero_elegido = int(input('Por favor ingrese un numero impar\n'))
+
+print('Gracias ahora puede continuar con su vida')
+
+#Punto 3
+
+#Opcion 1
+print('La suma de los numeros impares del 0 al 100 es',sum(range(1,100,2)))
+
+#Opcion 2
+acum = []
+
+for i in range(1,100):
+   if i%2 != 0:
+      acum.append(i)
+
+print(acum)
+print('La suma es',sum(acum))
+'''
+
+#Punto 4
